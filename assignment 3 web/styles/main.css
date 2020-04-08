@@ -1,0 +1,194 @@
+
+#container{font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: #ffffff;
+	margin:0px auto;
+	border: 2px solid black;
+	box-shadow: 0px 10px 10px 10px black;}
+
+#header{height:16%;width:100%;position:relative;top:-25px;left:0px;
+        background-image: -webkit-linear-gradient(
+			45deg, white 0%, orange 75%, black 100%);	
+	background-image: -moz-linear-gradient(
+			45deg, white 0%, orange 75%, black 100%);
+	background-image: -o-linear-gradient(
+			45deg, white 0%, orange 75%, black 100%);	
+	background-image: linear-gradient(
+			45deg, white 0%, orange 75%, black 100%);}
+#pumpkin{position:relative;top:10px;left:10px;float:left}
+#header h1{;position:relative;top:10px;left:20px;font-size: 230%;
+	text-indent: 25px;}
+#header h2{;position:relative;left:20px;font-size: 125%;
+	text-indent: 25px;}
+
+#nav1 ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position:relative;top:-25px;
+}
+
+#nav1 ul li {
+	float: left;
+}
+
+#nav1 ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+#nav1 a.current {
+	color: orange;
+}
+
+#nav1 ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav1 ul ul li {
+	float: none;
+}
+
+#nav1 ul li:hover > ul {
+	display: block;
+}
+
+#nav1 > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+#nav2{width:160px;postition:relative;left:0px;top:0px;height:auto;min-height:870px;background-color:white;float:left;font-weight: bold;padding-top: 15px;}
+#nav2 a{color:orange}
+#nav2 a:hover{color:green}
+
+#main h3{font-size: 140%;padding: 5px 5px;}
+#main h3:first-letter{font-size: 240%}
+
+#form1 {
+	width: 665px;	
+	padding: 0 20px 20px 20px;    
+}
+
+#form1 label{text-align: right;font-size:90%;
+  width:160px;
+   display: inline-block;
+   line-height: 1.5em;
+   margin: 5px 0px 0px 35px;
+}
+#form1 legend {font-size:80%;
+font-weight:bold;
+color:grey;
+}
+INPUT {border: 2px solid orange;font-size:90%;}
+.adress input{border: 1.5px solid black;font-size:90%;}
+.pno input {border: 1.5px solid black;font-size:90%;}
+.nticket input{border: 1.5px solid black;font-size:90%;}
+
+
+#form2 {
+	width: 665px;	
+	padding: 0 20px 20px 20px;
+}
+
+#form2 label{width:160px;font-size:90%;
+text-align: right;
+   display: inline-block;
+   line-height: 1.5em;
+   margin: 5px 0px 0px 35px;
+}
+#form2 select {width:12em;font-size:90%;}
+
+#form2 legend {font-size:80%;
+font-weight:bold;
+color:grey;
+}
+
+#form3 {
+	width: 665px;	
+	padding: 0 20px 20px 20px;
+}
+#form3 label{text-align: left;font-size:90%;
+   display:inline-block;
+   width:160;
+   margin: 5px 0px 0px 35px;
+}
+#form3 select {text-align: left;font-size:90%;}
+
+#form3 legend {font-size:80%;
+font-weight:bold;
+color:grey;
+}
+
+#form4 {
+	width: 665px;	
+	padding: 0 20px 20px 20px;
+}
+#form4 label{text-align: right;
+  font-size:90%;
+  width:160px;
+ display: inline-block;
+   line-height: 1.5em;
+   margin: 5px 0px 0px 35px;
+}
+.card11 select {width:12em;font-size:90%;
+         }
+
+#form4 legend {font-size:80%;
+font-weight:bold;
+color:grey;
+}
+
+
+#form5 {
+	width: 665px;	
+	padding: 0px 20px 20px 20px;
+        
+}
+
+#form5 legend {font-size:80%;
+font-weight:bold;
+color:grey;
+}
+.btn1 input {margin:5px 0px 0px 170px ;
+font-size:90%;
+       width:150px;
+position:relative;
+display:inline-block;
+}
+.btn2 input{margin:-21px 0px 0px 340px;
+font-size:90%;
+       width:150px;
+position:relative;}
+.btn1 input {border: 1.5px solid black;}
+.btn2 input {border: 1px solid black;}
+
+footer {
+	clear: left;
+	margin-top: 20px;
+	padding: 15px 0px;
+	border-top: 2px solid black;
+	background-image: -webkit-linear-gradient(
+			45deg, black 0%, orange 25%, white 100%);	
+	background-image: -moz-linear-gradient(
+			45deg, black 0%, orange 25%, white 100%);
+	background-image: -o-linear-gradient(
+			45deg, black 0%, orange 25%, white 100%);	
+	background-image: linear-gradient(
+			45deg, black 0%, orange 25%, white 100%);
+}
+
+footer p {
+	font-size: 90%;
+	text-align: center;	
+}
